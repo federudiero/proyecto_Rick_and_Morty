@@ -1,0 +1,18 @@
+.div1Container{
+    background-color: antiquewhite;
+    height: 100%;
+}
+.divContainer{
+    
+    background-image: linear-gradient(to top, rgba(41, 40, 40, 0.758) 0%, hsla(0, 0%, 0%, 0.763) 100%), url(../img/Rick_And_Morty_Portal_Gun_JuRicksic_Mort.jpg);
+    background-position: center;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.hAbout{
+color: rgb(172, 174, 168);
+
+}

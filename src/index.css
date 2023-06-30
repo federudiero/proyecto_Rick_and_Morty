@@ -1,4 +1,10 @@
 body {
+  background-image: linear-gradient(to top, rgba(45, 44, 43, 0.515) 0%, hsla(216, 13%, 8%, 0.247) 100%), url(./img/wp3277657.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',

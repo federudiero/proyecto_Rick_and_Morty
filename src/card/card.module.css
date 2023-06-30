@@ -1,0 +1,140 @@
+.container{
+    background-image: linear-gradient(to top, rgba(41, 40, 40, 0.758) 0%, hsla(0, 0%, 0%, 0.763) 100%), url(../img/Rick_And_Morty_Portal_Gun_JuRicksic_Mort.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15%;
+    gap: 10px;
+    border: 2px solid rgb(38, 203, 225);
+    transition: 0.5s;
+}
+.container:hover{
+    background-color: #114d4d;
+    width: 70%;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 15%;
+    
+    gap: 10px;
+    box-shadow: 7px 13px 15px -3px rgba(48, 48, 48, 0.72);
+    -webkit-box-shadow: 7px 13px 15px -3px rgba(214, 209, 209, 0.72);
+    -moz-box-shadow: 7px 13px 15px -3px rgba(231, 231, 231, 0.72);
+    transition: 0.5s;
+}
+.h2CardNombre{
+    color: #239b43;
+    font-size: 30px;
+}
+.h2Card{
+    color: aliceblue;
+    font-size: 20px;
+}
+.imgCard{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 2px solid rgb(50 19 33);
+    box-shadow: 3px 3px 20px 3px;
+    
+}
+.buttonCard{
+    width: 40px;
+    margin-bottom: 5px;
+    background-color:  #838585;
+    border: none;
+    border-radius: 40%;
+    transition: 0.5s;
+}
+.buttonCard:hover{
+    width: 40px;
+    margin-bottom: 5px;
+    background-color: rgb(167, 29, 29);
+    border-radius: 40%;
+    color: aliceblue;
+    transition: 0.5s;
+   
+
+}
+
+
+
+
+
+@media screen and (min-width: 700px) {
+    .container{
+        background-image: linear-gradient(to top, rgba(41, 40, 40, 0.758) 0%, hsla(0, 0%, 0%, 0.763) 100%), url(../img/RickAndMorty2.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 90%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15%;
+      
+        gap: 10px;
+        
+      transition: 0.2s;
+    }
+    .container:hover{
+        background-color: #114d4d;
+        width: 90%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15%;
+        
+        gap: 10px;
+        box-shadow: 7px 13px 15px -3px rgba(48, 48, 48, 0.72);
+        -webkit-box-shadow: 7px 13px 15px -3px rgba(214, 209, 209, 0.72);
+        -moz-box-shadow: 7px 13px 15px -3px rgba(231, 231, 231, 0.72);
+        transition: 0.2s;
+    }
+    
+  }
+
+
+
+
+
+
+  @media screen and (min-width: 1100px) {
+    .container{
+        background-image: linear-gradient(to top, rgba(41, 40, 40, 0.758) 0%, hsla(0, 0%, 0%, 0.763) 100%), url(../img/RickAndMorty3.jpg);
+        background-size: cover;
+        background-repeat: no-repeat;
+        width: 60%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15%;
+      
+        gap: 10px;
+        
+      transition: 0.2s;
+    }
+    .container:hover{
+        background-color: #114d4d;
+        width: 60%;
+        box-sizing: border-box;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        border-radius: 15%;
+        
+        gap: 10px;
+        box-shadow: 7px 13px 15px -3px rgba(48, 48, 48, 0.72);
+        -webkit-box-shadow: 7px 13px 15px -3px rgba(214, 209, 209, 0.72);
+        -moz-box-shadow: 7px 13px 15px -3px rgba(231, 231, 231, 0.72);
+        transition: 0.2s;
+    }
+    
+  }

@@ -1,0 +1,55 @@
+.containerCards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+  
+    
+
+   
+
+    gap: 20px;
+    padding-top: 40px;
+}
+
+@media screen and (min-width: 700px) {
+
+.containerCards{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+  
+   
+    
+
+   
+
+    gap: 20px;
+    padding-top: 40px;
+}
+
+}
+
+
+
+@media screen and (min-width: 1100px) {
+
+    .containerCards{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-column-gap: 0px;
+        grid-row-gap: 0px;
+        justify-items: center;
+        
+        
+    
+       
+    
+        gap: 20px;
+        padding-top: 40px;
+    }
+    
+    }

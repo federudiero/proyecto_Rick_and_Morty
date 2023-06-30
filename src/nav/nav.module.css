@@ -1,0 +1,140 @@
+.containerNav{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-image: linear-gradient(to top, rgba(45, 44, 43, 0.515) 0%, hsla(216, 13%, 8%, 0.247) 100%), url(../img/espacio.jpg);
+    background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  text-align: center;
+}
+.buttonNav{
+    font-size: 15px;
+    height: 30px;
+    width: 90px;
+    background-color: #020202;
+    border-radius: 20%;
+    color: aliceblue;
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+.buttonNav:hover{
+    font-size: 15px;
+    height: 30px;
+    width: 90px;
+    border-radius: 20%;
+    background-color: #85a412;
+    color: rgb(8, 8, 8);
+    font-weight: 700;
+    transition: 0.5s;
+
+}
+
+
+
+@media screen and (max-width: 500px) {
+    .containerNav{
+       display: flex;
+       
+       justify-content: space-evenly;
+       flex-direction: column;
+       align-items: stretch;
+       background-color: #464644;
+   
+   }}
+   
+
+
+@media screen and (min-width: 700px) {
+    .containerNav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #464644;
+    }
+    .buttonNav{
+        font-size: 15px;
+        height: 30px;
+        width: 90px;
+        background-color: #020202;
+        border-radius: 20%;
+        color: aliceblue;
+        font-weight: 700;
+        transition: 0.5s;
+    
+    }
+    .buttonNav:hover{
+        font-size: 15px;
+        height: 30px;
+        width: 90px;
+        border-radius: 20%;
+        background-color: #85a412;
+        color: rgb(8, 8, 8);
+        font-weight: 700;
+        transition: 0.5s;
+    
+    }
+    
+    
+    }
+    
+
+
+@media screen and (min-width: 1100px) {
+    
+    .containerNav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        align-items: center;
+        background-color: #464644;
+    }
+    .buttonNav{
+        font-size: 15px;
+        height: 30px;
+        width: 90px;
+        background-color: #020202;
+        border-radius: 20%;
+        color: aliceblue;
+        font-weight: 700;
+        transition: 0.5s;
+    
+    }
+    .buttonNav:hover{
+        font-size: 15px;
+        height: 30px;
+        width: 90px;
+        border-radius: 20%;
+        background-color: #85a412;
+        color: rgb(8, 8, 8);
+        font-weight: 700;
+        transition: 0.5s;
+    
+    }
+    
+    
+    }
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
