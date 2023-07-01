@@ -8,7 +8,7 @@ const initialState = {
     }
 
 
-    const reducer= (state = initialState,type ,payload)=>{
+    const reducer= (state = initialState,{type ,payload})=>{
 
         switch (type) {
             case ADD_FAVORITE:

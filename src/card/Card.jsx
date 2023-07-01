@@ -13,24 +13,24 @@ export function Card({ id, name,status,species,gender,image,onClose,addFavorite,
    const handleFavorite = ()=>{
       if (isFav) {
          setIsFav(false)
-         deleteFavorite()
-         
+         deleteFavorite(id)
+                                                  
       }else{
          setIsFav(true)
          addFavorite({id, name,status,species,gender,image,onClose})
       }
    } 
-   console.log(isFav)
+  
 
    useEffect(() => {
-      myFavorites.forEach((character) => {
+      myFavorites?.forEach((character) => {
          if (character.id === id) {
             setIsFav(true);
          }
       });
    }, [myFavorites]);
 
-
+ console.log(isFav)
 
 
     return (

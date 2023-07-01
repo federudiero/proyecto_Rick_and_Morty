@@ -2,21 +2,27 @@ import React from 'react'
 import { connect } from 'react-redux'
 import Card from '../card/Card'
 
-function Favorite({myFavorites}) {
+ function Favorite({myFavorites}) {
   console.log(myFavorites)
   return (
     <div>
         
         {myFavorites?.map(({id, name,status,species,gender,image})=>{
-       
-            <Card
-              Key={id}
+
+         return (  
+          <Card
             
+            id={id}
             name={name}  
             status={status}  
             species={species}  
             gender={gender} 
-            image={image} />
+            image={image} 
+
+
+            />)
+          
+           
 
         })}
     </div>
